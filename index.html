@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<style type="text/css">
+body {
+	background-image: url(backgroud.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #000;
+}
+body,td,th {
+	font-style: normal;
+	font-size: 2px;
+}
+</style>
+
+<script language="JavaScript">
+function abrir(URL) {
+ 
+  var width = 370;
+  var height = 400;
+ 
+  var left = 240;
+  var top = 240;
+ 
+  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=no, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no');
+ 
+}
+</script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/barra/botões usados/maokai_02.png','images/barra/botões usados/maokai_03.png','images/barra/botões usados/maokai_04.png','images/barra/botões usados/maokai_05.png')">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"><img src="images/maokai.com_02.png" width="844" height="218" usemap="#Map"/></div></td>
+  </tr>
+  <tr>
+  <td><div align="center"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/barra/botões usados/maokai_02.png',1)"> <img src="images/barra/maokai.com_034_01.png" width="152" height="99"  alt=""/><img src="images/barra/botões normais/maokai.com_034_02.png" alt="" width="136" height="99" id="Image4"></a><a href="lore.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/barra/botões usados/maokai_03.png',1)"><img src="images/barra/botões normais/maokai.com_034_03.png" alt="" width="109" height="99" id="Image5"></a><a href="skills.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/barra/botões usados/maokai_04.png',1)"><img src="images/barra/botões normais/maokai.com_034_04.png" alt="" width="127" height="99" id="Image6"></a><a href="javascript:abrir('contato.html');" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/barra/botões usados/maokai_05.png',1)"><img src="images/barra/botões normais/maokai.com_034_05.png" alt="" width="179" height="99" id="Image7"><img src="images/barra/maokai.com_034_06.png" width="147" height="99"  alt=""/></a></div>    </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+  </tr>
+  <tr>
+    <td>    <div align="center"><img src="images/home/maokai.com_03.png"  alt="" width="834" height="870" usemap="#Map2"/></div></tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="305,44,547,176" href="index.html">
+</map>
+
+<map name="Map2">
+  <area shape="rect" coords="92,61,389,227" href="https://youtu.be/nI0LICpjMkI">
+  <area shape="rect" coords="443,61,739,226" href="https://youtu.be/q_UGK0fQwSc">
+  <area shape="rect" coords="93,463,388,625" href="https://youtu.be/PBbHqbsRSEQ">
+  <area shape="rect" coords="442,462,739,627" href="https://youtu.be/RrF22aWTJCM">
+</map>
+</body>
+</html>
